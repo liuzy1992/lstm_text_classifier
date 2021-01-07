@@ -19,8 +19,8 @@ sklearn
                           [-o outdir]
 ```
 **-i**: filename of raw input text. Input text shoud be in TSV format with 4 colomns as follows:  
-        ID<TAB>title<TAB>content<TAB>label  
-        labels should be intergers.  
+&nbsp;&nbsp;&nbsp;&nbsp;ID*TAB*title*TAB*content*TAB*label  
+&nbsp;&nbsp;&nbsp;&nbsp;labels should be intergers.  
 **-m**: max length of sequence. Default=200  
 **-b**: batch size for training, valid and test data. Default=32  
 **-n**: number of epochs to use. Default=10  
